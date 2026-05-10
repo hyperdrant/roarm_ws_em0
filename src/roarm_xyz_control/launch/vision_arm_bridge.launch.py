@@ -11,12 +11,12 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {
-                    'fixed_z': 180.0,
+                    'fixed_z': 0.0,
                     'fixed_t': 3.14,
-                    'min_x': 150.0,
-                    'max_x': 260.0,
-                    'min_y': -80.0,
-                    'max_y': 80.0,
+                    'min_x': 180.0,
+                    'max_x': 500.0,
+                    'min_y': -180.0,
+                    'max_y': 260.0,
                     'publish_only_when_detected': True,
                 }
             ]
